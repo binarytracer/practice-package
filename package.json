@@ -38,10 +38,10 @@
       "import": "./dist/schemas/index.js",
       "require": "./dist/schemas/index.js"
     },
-    "./common": {
-      "types": "./dist/common/index.d.ts",
-      "import": "./dist/common/index.js",
-      "require": "./dist/common/index.js"
+    "./schemas/common": {
+      "types": "./dist/schemas/common/index.d.ts",
+      "import": "./dist/schemas/common/index.js",
+      "require": "./dist/schemas/common/index.js"
     }
   },
   "author": "",
