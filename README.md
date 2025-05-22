@@ -47,7 +47,7 @@ import types from 'txg-core/types'; # types and interfaces
 
 #### Installation Guide
 
-> this repos, was intended for internal use only.
+    > this repos, was intended for internal use only.
 
 1. To install,
    ```sh
