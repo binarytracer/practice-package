@@ -1,3 +1,3 @@
 export * from "./users";
 export * from "./roles";
-export * from "./common";
+export * from "./common/uuid-schema";
