@@ -25,3 +25,11 @@ export const UpdateUserSchema = {
     }),
   },
 };
+
+export const DeleteUserSchema = {
+  response: {
+    200: Type.Object({
+      id: Type.Number(),
+    }),
+  },
+};
