@@ -37,6 +37,11 @@
       "types": "./dist/schemas/index.d.ts",
       "import": "./dist/schemas/index.js",
       "require": "./dist/schemas/index.js"
+    },
+    "./common": {
+      "types": "./dist/common/index.d.ts",
+      "import": "./dist/common/index.js",
+      "require": "./dist/common/index.js"
     }
   },
   "author": "",
@@ -52,6 +57,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@fastify/type-provider-typebox": "^5.1.0"
+    "@fastify/type-provider-typebox": "^5.1.0",
+    "@sinclair/typebox": "^0.34.33"
   }
 }
