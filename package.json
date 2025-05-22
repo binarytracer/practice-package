@@ -34,9 +34,9 @@
       "require": "./dist/types/index.js"
     },
     "./schemas": {
-      "types": "./dist/schemas/common/index.d.ts",
-      "import": "./dist/schemas/common/index.js",
-      "require": "./dist/schemas/common/index.js"
+      "types": "./dist/schemas/index.d.ts",
+      "import": "./dist/schemas/index.js",
+      "require": "./dist/schemas/index.js"
     }
   },
   "author": "",
