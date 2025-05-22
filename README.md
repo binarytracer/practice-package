@@ -47,4 +47,14 @@ import types from 'txg-core/types'; # types and interfaces
 
 #### Installation Guide
 
-1. To any consuming repo/projects
+> this repos, was intended for internal use only.
+
+1. To install,
+   ```sh
+   $ npm install git+ssh://git@github.com:TXGlobe/txg-core.git
+   $ npm install git+ssh://git@github.com:TXGlobe/txg-core.git --force # always fetch updates
+   ```
+2. For updates
+   ```sh
+   $ npm install txg-core --force # shorthand
+   ```
