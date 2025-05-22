@@ -25,3 +25,11 @@ export const UpdateRoleSchema = {
     }),
   },
 };
+
+export const DeleteRoleSchema = {
+  response: {
+    200: Type.Object({
+      id: Type.Number(),
+    }),
+  },
+};
